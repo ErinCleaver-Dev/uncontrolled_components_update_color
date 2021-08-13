@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.color-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-square {
+  width: 300px;
+  height: 400px;
+  border: 2px solid rgb(245, 245, 245);
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button {
+  padding: 5px;
+  background: gray;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(109, 109, 109);
+}
